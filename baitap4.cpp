@@ -1,12 +1,10 @@
 #include<stdio.h>
-
-
 int LeCuoi(int a[],int n){
 	for(int i=n-1;i>=0;i--)
 		if(a[i]%2==1){
-		printf("So le cuoi cung trong mang la%d",a[i]);
+		printf("So le cuoi cung trong mang la :%d",a[i]);
             break;
-		}
+	}
 }
 int main(){
 	int n;
@@ -17,7 +15,5 @@ int main(){
 		printf("Nhap a[%d]=",i);
 		scanf("%d",&a[i]);
 	}
-	int lecuoi=LeCuoi(a,n);
-	
-	
+	int lecuoi=LeCuoi(a,n);	
 }
