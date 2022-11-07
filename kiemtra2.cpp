@@ -9,7 +9,8 @@ int main (){
         scanf("%d",&a[i]);
 	}    
     printf("Thu tu dao nguoc la:\n"); 
-    for(i = n-1; i>= 0;--i){
-        printf ("% d\n", a[i]);
-    }
+     while(i>=0);
+    i=n-1;
+    i--;
+    printf ("% d\n", a[i]);
 }
